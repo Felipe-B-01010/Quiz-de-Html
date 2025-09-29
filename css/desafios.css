@@ -1,0 +1,55 @@
+ .container-partes {
+            display: flex;
+            /* Deixa os itens lado a lado */
+            justify-content: center;
+            /* Centraliza horizontalmente */
+            gap: 20px;
+            /* Espaço entre as colunas */
+            margin-top: 40px;
+        }
+
+        .separacao_de_partes {
+            flex: 1;
+            /* Faz cada um ocupar espaço proporcional */
+            max-width: 300px;
+            /* Define uma largura máxima para cada bloco */
+            background: rgba(255, 255, 255, 0.1);
+            /* Só pra destacar cada parte */
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+
+        .cabecalho {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .conteudo {
+            display: block;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+
+        .coluna-botao {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .coluna-botao button {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .imagem {
+            margin-bottom: 40px;
+        }
