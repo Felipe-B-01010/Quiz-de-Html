@@ -1,5 +1,6 @@
  .container-partes {
             display: flex;
+            flex-wrap: wrap;
             /* Deixa os itens lado a lado */
             justify-content: center;
             /* Centraliza horizontalmente */
